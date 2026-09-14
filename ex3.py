@@ -9,7 +9,7 @@ bot = random.choice(opcoes)
 
 if entrada not in opcoes:
     print(' Entrada invalida, repita a jogada ')
-
+    quit()
 
 
 if entrada == bot: 
